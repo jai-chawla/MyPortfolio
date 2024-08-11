@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/MyPortfolio/static/css/main.4bb3fb2d.css",
-    "main.js": "/MyPortfolio/static/js/main.bf60d6a0.js",
+    "main.css": "/MyPortfolio/static/css/main.49a16142.css",
+    "main.js": "/MyPortfolio/static/js/main.1d0b350a.js",
     "static/media/netflix.png": "/MyPortfolio/static/media/netflix.bd550d8518e3e016cf2d.png",
     "static/media/disney.png": "/MyPortfolio/static/media/disney.2fa0e89a2081e3de3b42.png",
     "static/media/dalle.png": "/MyPortfolio/static/media/dalle.d1fe5e2fbf02d90d1902.png",
     "static/media/linktree.png": "/MyPortfolio/static/media/linktree.cde44144f1176fbe75db.png",
     "static/media/mongodb.png": "/MyPortfolio/static/media/mongodb.2f81ed7ec1fd818da1b5.png",
+    "static/media/pic.jpg": "/MyPortfolio/static/media/pic.2aef27a562872580b777.jpg",
     "static/media/sql.png": "/MyPortfolio/static/media/sql.0090a77e30cd431e1988.png",
     "static/media/heroImage.jpg": "/MyPortfolio/static/media/heroImage.58120e0b00d9ba2d4524.jpg",
     "static/media/react.png": "/MyPortfolio/static/media/react.0cf951a69d8e58f83f9d.png",
@@ -19,11 +20,11 @@
     "static/media/css.png": "/MyPortfolio/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/javascript.png": "/MyPortfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/MyPortfolio/index.html",
-    "main.4bb3fb2d.css.map": "/MyPortfolio/static/css/main.4bb3fb2d.css.map",
-    "main.bf60d6a0.js.map": "/MyPortfolio/static/js/main.bf60d6a0.js.map"
+    "main.49a16142.css.map": "/MyPortfolio/static/css/main.49a16142.css.map",
+    "main.1d0b350a.js.map": "/MyPortfolio/static/js/main.1d0b350a.js.map"
   },
   "entrypoints": [
-    "static/css/main.4bb3fb2d.css",
-    "static/js/main.bf60d6a0.js"
+    "static/css/main.49a16142.css",
+    "static/js/main.1d0b350a.js"
   ]
 }
