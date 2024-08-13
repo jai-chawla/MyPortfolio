@@ -69,15 +69,16 @@ const Navbar = () => {
             <div  onMouseLeave={closeDropdown} className="absolute right-0 mt-6 mr-4 w-48 bg-gray-600 rounded-md shadow-lg border b">
 
 <a
-              href="your-resume-link"
+              href="/JAI RESUME ATS.pdf"
               target="_blank"
               rel="noopener noreferrer"
-              className="block px-4 py-2 text-white hover:bg-gray-200"
+              className="block px-4 py-2 text-white hover:bg-gray-200" 
+              download={true}
             >
               Resume
             </a>
             <a
-              href="https://www.linkedin.com/in/your-linkedin-profile"
+              href="https://www.linkedin.com/in/jai-chawla-373886216/"
               target="_blank"
               rel="noopener noreferrer"
               className="block px-4 py-2 text-white hover:bg-gray-200"
@@ -85,7 +86,7 @@ const Navbar = () => {
               LinkedIn
             </a>
             <a
-              href="https://github.com/your-github-username"
+              href="https://github.com/jai-chawla/"
               target="_blank"
               rel="noopener noreferrer"
               className="block px-4 py-2 text-white hover:bg-gray-200"
