@@ -125,7 +125,7 @@ const Navbar = () => {
             </li>
           ))}
           <li className="px-4 cursor-pointer capitalize py-6 text-4xl">
-            <a href="/Jai_Resume.pdf" download={true} target="_blank">
+            <a href="MyPortfolio/Jai_Resume.pdf" download={true} target="_blank">
               Resume
             </a>
           </li>
