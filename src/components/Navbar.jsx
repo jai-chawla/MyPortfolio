@@ -69,7 +69,7 @@ const Navbar = () => {
             <div  onMouseLeave={closeDropdown} className="absolute right-0 mt-6 mr-4 w-48 bg-gray-600 rounded-md shadow-lg border b">
 
 <a
-              href="/JAI RESUME ATS.pdf"
+              href="/Jai_Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="block px-4 py-2 text-white hover:bg-gray-200" 
@@ -125,7 +125,7 @@ const Navbar = () => {
             </li>
           ))}
           <li className="px-4 cursor-pointer capitalize py-6 text-4xl">
-            <a href="/JAI RESUME ATS.pdf" download={true} target="_blank">
+            <a href="/Jai_Resume.pdf" download={true} target="_blank">
               Resume
             </a>
           </li>
