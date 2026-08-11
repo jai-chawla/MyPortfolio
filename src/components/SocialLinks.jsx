@@ -59,7 +59,7 @@ const SocialLinks = () => {
             animate={{ x: -90 }}
             whileHover={{ x: 0 }}
             transition={{ type: 'spring', stiffness: 300, damping: 20 }}
-            className={`flex justify-between items-center w-36 h-12 px-4 backdrop-blur-md transition-all duration-300 ${style}`}
+            className={`flex justify-between items-center w-36 h-12 px-4 backdrop-blur-md transition-colors duration-200 ${style}`}
           >
             <a
               href={href}

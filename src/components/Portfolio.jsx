@@ -1,5 +1,5 @@
 import React from 'react';
-import bodsphere from '../assets/portfolio/bodsphere.png';
+import bodsphere from '../assets/portfolio/bodPic.png';
 import dalle from '../assets/portfolio/dalle.png';
 import disney from '../assets/portfolio/disney.png';
 import linktree from '../assets/portfolio/linktree.png';
@@ -12,10 +12,10 @@ const Portfolio = () => {
     {
       id: 1,
       src: bodsphere,
-      name: 'Bodsphere Wellness Platform',
+      name: 'Bodsphere',
       tags: ['Next.js', 'React.js', 'Node.js', 'MongoDB', 'AWS', 'Tailwind CSS'],
       link: 'https://www.bodsphere.com',
-      code: 'https://www.bodsphere.com'
+      // code: 'https://www.bodsphere.com'
     },
     {
       id: 2,
@@ -115,21 +115,23 @@ const Portfolio = () => {
                   <a 
                     href={link} 
                     target="_blank" 
-                    rel="noreferrer" 
-                    className="flex-1 flex items-center justify-center space-x-2 py-2.5 rounded-lg border border-cyan-500/30 bg-cyan-500/10 hover:bg-cyan-500 hover:text-white transition-all duration-300 text-sm font-medium text-cyan-400 text-center"
+                    rel="noopener noreferrer" 
+                    className={`${code ? 'flex-1' : 'w-full'} flex items-center justify-center space-x-2 py-2.5 rounded-lg border border-cyan-500/30 bg-cyan-500/10 hover:bg-cyan-500 hover:text-white transition-all duration-300 text-sm font-medium text-cyan-400 text-center`}
                   >
-                    <span>Demo</span>
+                    <span>Live Link</span>
                     <FaExternalLinkAlt size={12} />
                   </a>
-                  <a 
-                    href={code} 
-                    target="_blank" 
-                    rel="noreferrer" 
-                    className="flex-1 flex items-center justify-center space-x-2 py-2.5 rounded-lg border border-white/10 bg-white/5 hover:bg-white/15 transition-all duration-300 text-sm font-medium text-gray-300 text-center hover:text-white"
-                  >
-                    <span>Code</span>
-                    <FaGithub size={14} />
-                  </a>
+                  {code && (
+                    <a 
+                      href={code} 
+                      target="_blank" 
+                      rel="noopener noreferrer" 
+                      className="flex-1 flex items-center justify-center space-x-2 py-2.5 rounded-lg border border-white/10 bg-white/5 hover:bg-white/15 transition-all duration-300 text-sm font-medium text-gray-300 text-center hover:text-white"
+                    >
+                      <span>Code</span>
+                      <FaGithub size={14} />
+                    </a>
+                  )}
                 </div>
               </div>
             </motion.div>
