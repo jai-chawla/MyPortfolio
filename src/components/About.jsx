@@ -1,20 +1,96 @@
-import React from 'react'
+import React from 'react';
+import { motion } from 'framer-motion';
+import { HiOutlineCode, HiOutlineDatabase, HiOutlineLightningBolt } from 'react-icons/hi';
 
 const About = () => {
+  const cards = [
+    {
+      id: 1,
+      icon: <HiOutlineCode size={30} className="text-cyan-400" />,
+      title: "Frontend Craftsmanship",
+      description: "Building responsive, modern, and high-fidelity user interfaces using React, Next.js, and Tailwind CSS."
+    },
+    {
+      id: 2,
+      icon: <HiOutlineDatabase size={30} className="text-blue-400" />,
+      title: "Scalable Systems",
+      description: "Developing robust backend APIs with Node.js & Express, leveraging Redis caching, Kafka messaging, and databases."
+    },
+    {
+      id: 3,
+      icon: <HiOutlineLightningBolt size={30} className="text-amber-400" />,
+      title: "Algorithms & DSA",
+      description: "Strong problem-solving foundation in C++, optimizing code complexity and focusing on scalable architecture."
+    }
+  ];
+
   return (
-    <div name="about" className='w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white'>
-      <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
-        <div className='sm:mt-0 pb-8 mt-[450px]'>
-          <p className='text-4xl font-bold inline border-b-4 border-gray-500 \\'>About</p>
+    <div name="about" className="w-full min-h-screen bg-gradient-to-b from-slate-900 to-gray-950 text-white flex items-center py-24 md:py-32">
+      <div className="max-w-screen-lg p-6 mx-auto flex flex-col justify-center w-full h-full">
+        
+        {/* Title */}
+        <motion.div 
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6 }}
+          className="pb-8"
+        >
+          <p className="text-4xl font-bold inline border-b-4 border-cyan-500 font-display">
+            About Me
+          </p>
+        </motion.div>
+
+        {/* Info Grid */}
+        <div className="grid md:grid-cols-5 gap-12 items-start mt-6">
+          
+          {/* Narrative Text */}
+          <motion.div 
+            initial={{ opacity: 0, x: -30 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8, delay: 0.1 }}
+            className="md:col-span-3 space-y-6 text-gray-300 leading-relaxed text-base md:text-lg text-justify"
+          >
+            <p>
+              I am a dedicated <strong className="text-white">Full Stack Developer</strong> based in Delhi, India, with a B.Tech degree in Information Technology (<strong className="text-cyan-400">8.4 CGPA</strong>). I design dynamic, responsive, and performance-tuned web applications.
+            </p>
+            <p>
+              My expertise spans the entire development stack—from building modern React and Next.js user interfaces to integrating backends, microservices, and databases. I believe in writing readable, maintainable, and optimized code.
+            </p>
+            <p>
+              Continuous learning keeps me motivated. I actively study Data Structures and Algorithms in C++ to improve my analytical reasoning, and explore modern technologies like Redis and Kafka to build scalable systems.
+            </p>
+          </motion.div>
+
+          {/* Highlights Sidebar */}
+          <motion.div 
+            initial={{ opacity: 0, x: 30 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8, delay: 0.2 }}
+            className="md:col-span-2 space-y-4"
+          >
+            {cards.map(({ id, icon, title, description }) => (
+              <div 
+                key={id} 
+                className="p-4 rounded-xl glass-card flex items-start space-x-4 hover:-translate-y-1 hover:shadow-lg hover:shadow-cyan-500/5 duration-300"
+              >
+                <div className="p-2 bg-gray-900/60 rounded-lg border border-white/5 mt-1">
+                  {icon}
+                </div>
+                <div>
+                  <h4 className="text-white font-semibold font-display text-base">{title}</h4>
+                  <p className="text-gray-400 text-sm mt-1 leading-relaxed">{description}</p>
+                </div>
+              </div>
+            ))}
+          </motion.div>
+          
         </div>
-        <p className='text-xl text-justify'>I am a dedicated Full Stack Developer based in Delhi, India, with a strong academic background and a passion for creating dynamic and responsive web applications. I hold a B.Tech degree in Information Technology, where I scored a CGPA of 8.4. My technical expertise lies in modern web development technologies, including React.js, Node.js, Tailwind CSS, and MongoDB, allowing me to build robust and efficient full-stack applications.</p>
-        <br />
-        <p className='text-xl text-justify'>In addition to my web development skills, I have a solid foundation in programming languages such as C++ and Java. I regularly practice Data Structures and Algorithms (DSA) to enhance my problem-solving abilities and ensure that my code is optimized and scalable. I am highly motivated to work in a professional environment where I can apply my knowledge and skills to real-world projects while continuing to learn and grow in this ever-evolving field.</p>
-        <br />
-        <p className='text-xl text-justify'>As I look forward to the next step in my career, I am eager to contribute to a team that values innovation, collaboration, and quality. My goal is to leverage my technical skills to create impactful digital solutions that drive business success.</p>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default About
+export default About;
