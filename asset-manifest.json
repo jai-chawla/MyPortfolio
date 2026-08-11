@@ -1,30 +1,19 @@
 {
   "files": {
-    "main.css": "/MyPortfolio/static/css/main.6ba02995.css",
-    "main.js": "/MyPortfolio/static/js/main.391bbe75.js",
+    "main.css": "/MyPortfolio/static/css/main.e41ea1e9.css",
+    "main.js": "/MyPortfolio/static/js/main.769a9dec.js",
     "static/media/netflix.png": "/MyPortfolio/static/media/netflix.bd550d8518e3e016cf2d.png",
     "static/media/disney.png": "/MyPortfolio/static/media/disney.2fa0e89a2081e3de3b42.png",
     "static/media/dalle.png": "/MyPortfolio/static/media/dalle.d1fe5e2fbf02d90d1902.png",
     "static/media/linktree.png": "/MyPortfolio/static/media/linktree.cde44144f1176fbe75db.png",
-    "static/media/mongodb.png": "/MyPortfolio/static/media/mongodb.2f81ed7ec1fd818da1b5.png",
-    "static/media/pic.jpg": "/MyPortfolio/static/media/pic.2aef27a562872580b777.jpg",
-    "static/media/sql.png": "/MyPortfolio/static/media/sql.0090a77e30cd431e1988.png",
-    "static/media/heroImage.jpg": "/MyPortfolio/static/media/heroImage.58120e0b00d9ba2d4524.jpg",
-    "static/media/react.png": "/MyPortfolio/static/media/react.0cf951a69d8e58f83f9d.png",
-    "static/media/node.png": "/MyPortfolio/static/media/node.952a9ea986dcfa5229ad.png",
-    "static/media/c++.png": "/MyPortfolio/static/media/c++.83dfa097dfa94f707a41.png",
-    "static/media/java.png": "/MyPortfolio/static/media/java.2e94a0e9c57c6860a18e.png",
-    "static/media/github.png": "/MyPortfolio/static/media/github.3b9e32903aa89111875d.png",
-    "static/media/html.png": "/MyPortfolio/static/media/html.2ba4fabc69a89a8f71e6.png",
-    "static/media/tailwind.png": "/MyPortfolio/static/media/tailwind.e47ac876b8d4d0bba47a.png",
-    "static/media/css.png": "/MyPortfolio/static/media/css.69a82c2d9e45c933a9cb.png",
-    "static/media/javascript.png": "/MyPortfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
+    "static/media/bodPic.png": "/MyPortfolio/static/media/bodPic.d6aad93aa932699c11f9.png",
+    "static/media/heroImage2.jpeg": "/MyPortfolio/static/media/heroImage2.623abf996ed14dae46b4.jpeg",
     "index.html": "/MyPortfolio/index.html",
-    "main.6ba02995.css.map": "/MyPortfolio/static/css/main.6ba02995.css.map",
-    "main.391bbe75.js.map": "/MyPortfolio/static/js/main.391bbe75.js.map"
+    "main.e41ea1e9.css.map": "/MyPortfolio/static/css/main.e41ea1e9.css.map",
+    "main.769a9dec.js.map": "/MyPortfolio/static/js/main.769a9dec.js.map"
   },
   "entrypoints": [
-    "static/css/main.6ba02995.css",
-    "static/js/main.391bbe75.js"
+    "static/css/main.e41ea1e9.css",
+    "static/js/main.769a9dec.js"
   ]
 }
