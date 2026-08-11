@@ -1,4 +1,5 @@
 import React from 'react';
+import bodsphere from '../assets/portfolio/bodsphere.png';
 import dalle from '../assets/portfolio/dalle.png';
 import disney from '../assets/portfolio/disney.png';
 import linktree from '../assets/portfolio/linktree.png';
@@ -10,6 +11,14 @@ const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
+      src: bodsphere,
+      name: 'Bodsphere Wellness Platform',
+      tags: ['Next.js', 'React.js', 'Node.js', 'MongoDB', 'AWS', 'Tailwind CSS'],
+      link: 'https://www.bodsphere.com',
+      code: 'https://www.bodsphere.com'
+    },
+    {
+      id: 2,
       src: disney,
       name: 'Disney+ Clone',
       tags: ['React', 'Redux', 'Firebase', 'Styled Components'],
@@ -17,7 +26,7 @@ const Portfolio = () => {
       code: 'https://github.com/jai-chawla/movie-streaming'
     },
     {
-      id: 2,
+      id: 3,
       src: dalle,
       name: 'DALL-E AI Image Generator',
       tags: ['React', 'Node.js', 'Express', 'MongoDB', 'Cloudinary', 'OpenAI'],
@@ -25,7 +34,7 @@ const Portfolio = () => {
       code: 'https://github.com/jai-chawla/dall-e'
     },
     {
-      id: 3,
+      id: 4,
       src: linktree,
       name: 'Linktree Frontend',
       tags: ['React.js', 'Tailwind CSS', 'Framer Motion'],
@@ -33,7 +42,7 @@ const Portfolio = () => {
       code: 'https://github.com/jai-chawla/Nexorand-intern'
     },
     {
-      id: 4,
+      id: 5,
       src: netflix,
       name: 'Netflix Clone',
       tags: ['React.js', 'TMDB API', 'Tailwind CSS', 'Firebase'],
